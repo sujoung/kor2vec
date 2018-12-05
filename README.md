@@ -58,7 +58,7 @@ kor2vec.forward(input)
 ### training
 
 ```python
-from kor2vec import Kor2vec
+from kor2vec import Kor2Vec
 
 kor2vec = Kor2Vec(embed_size=128)
 
@@ -72,7 +72,7 @@ kor2vec.save("../mode/path") # saving embedding
 ```python
 
 import torch.nn as nn
-from kor2vec import Kor2vec
+from kor2vec import Kor2Vec
 
 kor2vec = Kor2Vec.load("../model/path")
 # or kor2vec = SejongVector()
